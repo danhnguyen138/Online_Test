@@ -1,0 +1,4 @@
+dist
+coverage
+scripts
+db-init

@@ -1,0 +1,38 @@
+:root {
+    --background-color: #54bab9;
+    --background-noActive: #fbfaf9;
+    --color-item: #f8f7f6;
+    --color-noActive: #d3d3d3;
+    --backgroud-type2: #fcfbfa;
+    
+}
+.typeTeacher-1 {
+    width: 160px;
+    padding: 5px 0px;
+    background-color: var(--background-noActive);
+    border: 1px solid var(--background-color);
+    border-radius: 28px;
+    color: var(--color-noActive);
+    cursor: default ;
+}
+.typeTeacher-2{
+    padding: 4px 6px;
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: var(--backgroud-type2);
+    border: 1px solid var(--background-color);
+    box-shadow: inset -2px -2px 4px rgba(203, 232, 231, 1);
+    color: var(--background-color)
+  
+}
+.activeButtonTeacher {
+    width: 160px;
+    padding: 5px 0px;
+    background-color: var(--background-color);
+    border: 1px solid var(--background-color);
+    border-radius: 28px;
+    box-shadow: inset -2px -2px 4px rgba(0, 0, 0, 0.2);
+    color: var(--color-item);
+    cursor: default ;
+}
+

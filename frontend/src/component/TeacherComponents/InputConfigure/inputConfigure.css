@@ -1,0 +1,16 @@
+.inputConfigure{
+    background-color: #f0eeed;
+    border: 1px solid #cdcbcb;
+    border-radius: 10px;
+    width: 250px;
+    height: 35px;
+    font-size: 15px;
+    padding: 5px 10px;
+    box-shadow:
+    inset -0.1em -0.1em 0.1em #cdcbcb,
+    0.1em 0.1em 0.1em #cdcbcb;
+}
+.inputConfigure:focus{
+    border: 1px solid #cdcbcb;
+    outline: none;
+}

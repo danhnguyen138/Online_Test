@@ -1,0 +1,24 @@
+:root{
+    --color-item:#f8f7f6;
+}
+.sideBarItem{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 10px 7px;
+}
+.sideBarItem .sideBarIcon{
+    margin-right: 10px;
+    color: var(--color-item)
+}
+.sideBarItem .sideBarName{
+    
+    line-height: 18px;
+    font-size: 18px;
+    color: var(--color-item);
+}
+
+.sideBarItem .sideBarName:hover{
+    text-decoration: none;
+    color: var(--color-item)
+}

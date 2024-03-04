@@ -1,0 +1,19 @@
+.btn-save {
+    padding: 4px 6px;
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: var(--backgroud-type2);
+    border: 1px solid var(--background-color);
+    box-shadow: inset -2px -2px 4px rgba(203, 232, 231, 1);
+    color: var(--background-color)
+}
+
+.btn-exit {
+    padding: 4px 6px;
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: var(--backgroud-type2);
+    border: 1px solid #787878;
+    box-shadow: inset -2px -2px 4px rgb(174, 174, 174);
+    color: #666666;
+}
